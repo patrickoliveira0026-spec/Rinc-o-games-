@@ -1,0 +1,845 @@
+OCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rincão Games - Coleção Digital</title>
+    <style>
+        body { background-color: #121212; color: #ffffff; font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .hero { text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #1f1f1f, #0a0a0a); position: relative; }
+        .hero__logo { max-width: 150px; border-radius: 10px; }
+        .hero__title { font-size: 2.5rem; margin: 10px 0; }
+        .hero__title .x { color: #0c7a33; }
+        .section { padding: 40px 20px; max-width: 1200px; margin: 0 auto; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+        
+        /* Estilo dos Cards */
+        .card { background: #1a1a1a; border-radius: 8px; border: 1px solid #333; display: flex; flex-direction: column; overflow: hidden; }
+        .card__art { position: relative; }
+        .card__art img { width: 100%; display: block; }
+        .card__overlay { display: flex; gap: 5px; padding: 10px; background: #1a1a1a; }
+        .card__btn { flex: 1; padding: 8px; border: none; border-radius: 4px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 5px; font-size: 0.8rem; text-decoration: none; color: white; }
+        .card__btn--dl { background: #0c7a33; }
+        .card__btn--gp { background: #444; }
+        
+        .card__title { font-size: 0.95rem; padding: 10px 10px 0; margin: 0; text-align: center; }
+        .card__genre { text-align: center; font-size: 0.8rem; color: #888; padding: 5px 0 15px; }
+        .card__novo { position: absolute; top: 10px; left: 10px; background: #0c7a33; color: #fff; padding: 3px 8px; font-size: 0.7rem; border-radius: 4px; z-index: 1; }
+        
+        .whatsapp-float { position: fixed; bottom: 25px; right: 25px; z-index: 9999; }
+        .whatsapp-float a { background-color: #25d366; color: white; padding: 15px 25px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <img class="hero__logo" src="https://meusjogosde360.com.br/wp-content/uploads/2026/06/cropped-Captura-de-tela-2026-06-15-100152-Photoroom.png" alt="Rincão Games">
+    <h1 class="hero__title"><span class="x">RINCÃO</span> GAMES</h1>
+</section>
+
+<section class="section">
+    <div class="grid">
+        
+        <!-- Jogo: 007 Quantum of Solace -->
+        <div class="card" data-nome="007: quantum of solace">
+            <div class="card__art">
+                <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/007-Quantum-of-Solace-USA-Europe-EnFr.png" alt="007">
+                <div class="card__overlay">
+                    <a href="https://wa.me/5541988958854?text=Quero o jogo: 007 Quantum of Solace" class="card__btn card__btn--dl">Download</a>
+                    <a href="https://www.youtube.com/watch?v=j8AZMtidhvo" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+                </div>
+            </div>
+            <h3 class="card__title">007: Quantum of Solace</h3>
+            <div class="card__genre">Ação</div>
+        </div>
+
+        <!-- Jogo: 50 Cent Blood on The Sand -->
+        <div class="card" data-nome="50 cent blood on the sand">
+            <div class="card__art">
+                <span class="card__novo">✦ Novo</span>
+                <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/50-Cent-Blood-on-the-Sand-USA-Europe-EnFrDe.png" alt="50 Cent">
+                <div class="card__overlay">
+                    <a href="https://wa.me/5541988958854?text=Quero o jogo: 50 Cent Blood on The Sand" class="card__btn card__btn--dl">Download</a>
+                    <a href="https://www.youtube.com/watch?v=OttV6xEn3GA" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+                </div>
+            </div>
+            <h3 class="card__title">50 Cent Blood on The Sand</h3>
+            <div class="card__genre">Tiro</div>
+        </div>
+
+        <!-- Adicione os outros cards seguindo este mesmo padrão -->
+
+    </div>
+</section>
+
+<div class="whatsapp-float">
+    <a href="https://wa.me/5541988958854?text=Olá, vim pelo site da Rincão Games!" target="_blank">💬 Falar no WhatsApp</a>
+</div>
+
+</body>
+</html><!-- Lista de Jogos Convertida -->
+
+<!-- Bully: Scholarship Edition -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Bully-Scholarship-Edition-USA-EnFrDeEsIt.png" alt="Bully">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Bully: Scholarship Edition" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=i50rKgxXdf4" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Bully: Scholarship Edition</h3>
+    <div class="card__genre">Aventura</div>
+</div>
+
+<!-- Burnout Revenge -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Burnout-Revenge-USA.png" alt="Burnout Revenge">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Burnout Revenge Premium" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=ehYn6VHOm7g" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Burnout Revenge Premium</h3>
+    <div class="card__genre">Corrida</div>
+</div>
+
+<!-- Cabelas African Adventures -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Cabelas-African-Adventures-USA.png" alt="Cabelas">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Cabelas African Adventures" class="card__btn card__btn--dl">Download</a>
+            <a href="https://youtu.be/yibIHy-ai7k" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Cabelas African Adventures</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- Série Call of Duty -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Call-of-Duty-2-USA-Europe.png" alt="COD 2">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Call of Duty 2" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=czW0Lrh6_Hw" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Call of Duty 2</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Call-of-Duty-3-USA-Europe.png" alt="COD 3">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Call of Duty 3" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=xmsU_FmeGmU" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Call of Duty 3</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Call-of-Duty-4-Modern-Warfare-USA-Europe.png" alt="COD 4">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Call of Duty 4: Modern Warfare" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=0XcwAPIXbG8" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Call of Duty 4: Modern Warfare</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Call-of-Duty-Advanced-Warfare-USA-Europe-EnFrDeEsItPtPlRu-Install-Disc.png" alt="COD AW">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Call of Duty: Advanced Warfare" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=9G-XqvdPTDk" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Call of Duty: Advanced Warfare</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Call-of-Duty-Black-Ops-USA-Europe.png" alt="COD BO">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Call of Duty: Black Ops I" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=1apGRqkfqoc" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Call of Duty: Black Ops I</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/call-of-duty-black-ops-ii-dublado-em-pt-br.png" alt="COD BO2">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Call of Duty: Black Ops II" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=qgI7Ffi1_Rc" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Call of Duty: Black Ops II</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Call-of-Duty-Ghosts-USA-Europe-EnFrDeEsItPtPlRu-Disc-2-Install-Disc.png" alt="COD Ghosts">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Call of Duty: Ghosts" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=oEh8CabybJ8" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Call of Duty: Ghosts</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Call-of-Duty-Modern-Warfare-2-USA-Europe.png" alt="COD MW2">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Call of Duty: Modern Warfare 2" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=DYCGakV61_c" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Call of Duty: Modern Warfare 2</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Call-of-Duty-Modern-Warfare-3-USA-Europe.png" alt="COD MW3">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Call of Duty: Modern Warfare 3" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=LCvdwROhRwI" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Call of Duty: Modern Warfare 3</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Call-of-Duty-World-at-War-USA-Europe.png" alt="COD WAW">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Call of Duty: World at War" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=HAM9bdACmzk" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Call of Duty: World at War</h3>
+    <div class="card__genre">FPS</div>
+</div><!-- Castlevania Lords of Shadow 2 -->
+<div class="card">
+    <div class="card__art">
+        <span class="card__novo">✦ Novo</span>
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/07/Castlevania-Lords-of-Shadow-2-USA-Europe-EnFrDeEsItPt.png" alt="Castlevania 2">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Castlevania Lords of Shadow 2" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=RhtWuD4H0vQ" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Castlevania Lords of Shadow 2 (PT-BR)</h3>
+    <div class="card__genre">Ação</div>
+</div>
+
+<!-- Castlevania: Lords of Shadow -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Castlevania-Lords-of-Shadow-USA-Europe-EnFrDeEsIt-Disc-2.png" alt="Castlevania">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Castlevania: Lords of Shadow" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=JSGWfo3eNts" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Castlevania: Lords of Shadow</h3>
+    <div class="card__genre">Aventura</div>
+</div>
+
+<!-- Chaves Kart -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/chaves-kart-dublado-pt-br.webp" alt="Chaves Kart">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Chaves Kart" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=faDjmfDgzBM" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Chaves Kart (DUBLADO PT-BR)</h3>
+    <div class="card__genre">Corrida</div>
+</div>
+
+<!-- Condemned 2 Bloodshot -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Condemned-2-Bloodshot-USA-Europe-EnFrEsIt.png" alt="Condemned 2">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Condemned 2 Bloodshot" class="card__btn card__btn--dl">Download</a>
+            <a href="https://youtu.be/W67xN-Z__p8" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Condemned 2 Bloodshot</h3>
+    <div class="card__genre">Terror</div>
+</div>
+
+<!-- Condemned Criminal Origins -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/condemned-criminal-origins.webp" alt="Condemned 1">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Condemned Criminal Origins" class="card__btn card__btn--dl">Download</a>
+            <a href="https://youtu.be/risRVMKGsr4" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Condemned Criminal Origins</h3>
+    <div class="card__genre">Terror</div>
+</div>
+
+<!-- Crash Nitro Kart -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/ChatGPT-Image-11-de-ago.-de-2026-19_52_50-Photoroomwww-Photoroom.webp" alt="Crash Nitro">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Crash Nitro Kart" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=OEVhyFGGSlc" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Crash Nitro Kart (Xbox Classico)</h3>
+    <div class="card__genre">Corrida</div>
+</div>
+
+<!-- Crash of the Titans -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Crash-of-the-Titans-USA-EnFrDeEsItNl.png" alt="Crash Titans">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Crash of the Titans" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=tk5tDp7C4dM" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Crash of the Titans (LEGENDADO PT-BR)</h3>
+    <div class="card__genre">Plataforma</div>
+</div>
+
+<!-- Crash Twinsanity -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/crash-twinsanity-dublado-pt-br.webp" alt="Crash Twinsanity">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Crash Twinsanity" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=yCUTxBAwnyg" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Crash Twinsanity (DUBLADO PT-BR)</h3>
+    <div class="card__genre">Aventura</div>
+</div>
+
+<!-- Crash: Mind Over Mutant -->
+<div class="card">
+    <div class="card__art">
+        <span class="card__novo">✦ Novo</span>
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Crash-Mind-over-Mutant-USA-EnFrDeEsItNlSvNoDaFi.png" alt="Crash Mutant">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Crash: Mind Over Mutant" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=cQWxtTYUQEk" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Crash: Mind Over Mutant (PT-BR)</h3>
+    <div class="card__genre">Ação</div>
+</div>
+
+<!-- Crysis 1 -->
+<div class="card">
+    <div class="card__art">
+        <span class="card__novo">✦ Novo</span>
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/crysis-1.webp" alt="Crysis 1">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Crysis 1" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=WUhUki9uRuc" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Crysis 1 (PT-BR)</h3>
+    <div class="card__genre">Tiro</div>
+</div>
+
+<!-- Crysis 2 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Crysis-2-World-EnFr.png" alt="Crysis 2">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Crysis 2" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=FyGTpLAHZgA" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Crysis 2 (LEGENDADO PT-BR)</h3>
+    <div class="card__genre">FPS</div>
+</div><!-- Diablo 3 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Diablo-III-Reaper-of-Souls-Ultimate-Evil-Edition-USA.png" alt="Diablo 3">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Diablo 3: Reaper of Souls Ultimate Evil Edition" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=AyuU_xgyqu0" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Diablo 3 (Dublado) Reaper of Souls</h3>
+    <div class="card__genre">RPG</div>
+</div>
+
+<!-- Digimon All Star Rumble -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Digimon-All-Star-Rumble-USA.png" alt="Digimon All Star">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Digimon All Star Rumble" class="card__btn card__btn--dl">Download</a>
+            <a href="https://youtu.be/V6sV7YAHeW0" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Digimon All Star Rumble</h3>
+    <div class="card__genre">Luta</div>
+</div>
+
+<!-- Dirt 2 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/DiRT-2-USA-Europe-EnFrDeEsIt.png" alt="Dirt 2">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Dirt 2" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=n5tl-KrbMWg" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Dirt 2</h3>
+    <div class="card__genre">Corrida</div>
+</div>
+
+<!-- Dishonored -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Dishonored-USA-EnFrEs.png" alt="Dishonored">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Dishonored" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/live/LNcSWtu_iSg" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Dishonored</h3>
+    <div class="card__genre">Ação</div>
+</div>
+
+<!-- Disney Pixar: UP -->
+<div class="card">
+    <div class="card__art">
+        <span class="card__novo">✦ Novo</span>
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Disney-Pixar-Up-USA.png" alt="Disney UP">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Disney Pixar: UP - Altas Aventuras" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=EA7XBIAtvuU" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Disney Pixar: UP - Altas Aventuras</h3>
+    <div class="card__genre">Aventura</div>
+</div>
+
+<!-- Disney Universe -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Disney-Universe-USA-EnFrDeEsNlSvNoDa.png" alt="Disney Universe">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Disney Universe" class="card__btn card__btn--dl">Download</a>
+            <a href="https://youtu.be/vud6P6goxjI" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Disney Universe</h3>
+    <div class="card__genre">Aventura</div>
+</div>
+
+<!-- DmC: Devil May Cry -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/DmC-Devil-May-Cry-USA-Europe-EnFrDeEsItNlPtPlRu.png" alt="DmC">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: DmC: Devil May Cry" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=w_SfkoGFk7Q" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">DmC: Devil May Cry (Legendado)</h3>
+    <div class="card__genre">Ação</div>
+</div><!-- Far Cry 1 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/far-cry-1.webp" alt="Far Cry 1">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Far Cry 1" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=csm9IAA72I4" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Far Cry 1</h3>
+    <div class="card__genre">Mundo Aberto</div>
+</div>
+
+<!-- Far Cry 2 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Far-Cry-2-USA-Europe-EnFrDeEsIt.png" alt="Far Cry 2">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Far Cry 2" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=shm_gqJKSPU" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Far Cry 2 (Legendado PT-BR)</h3>
+    <div class="card__genre">Mundo Aberto</div>
+</div>
+
+<!-- Far Cry 3 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Far-Cry-3-USA-Europe-EnFrDeEsItNlPtSvNoDa.png" alt="Far Cry 3">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Far Cry 3" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=ch-Tk_i3o7c" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Far Cry 3 (Legendado PT-BR)</h3>
+    <div class="card__genre">Mundo Aberto</div>
+</div>
+
+<!-- Far Cry 4 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Far-Cry-4-USA.png" alt="Far Cry 4">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Far Cry 4" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=vW5ovtfuig4" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Far Cry 4 (Dublado PT-BR)</h3>
+    <div class="card__genre">Mundo Aberto</div>
+</div>
+
+<!-- Farming Simulator 15 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Farming-Simulator-15-USA.png" alt="Farming Simulator 15">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Farming Simulator 15" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=sG8yZ3MQQps" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Farming Simulator 15 (Premium)</h3>
+    <div class="card__genre">Mundo Aberto</div>
+</div><!-- FC 26 (Atualizado Agosto/2026) -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/fcf26.webp" alt="FC 26">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FC 26 (Atualizado Agosto/2026)" class="card__btn card__btn--dl">Download</a>
+            <a href="https://youtu.be/0SDcEHjXX8g?is=7RQkuvGUKq_IYsP-" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FC 26 (Atualizado Agosto/2026) (FIFA 26)</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FC 26 (Copa do Mundo Junho) -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/fc-26-copa-do-mundo-junho.webp" alt="FC 26">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FC 26 (Copa do Mundo Junho)" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=F84ccFlhWwQ" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FC 26 (Copa do Mundo Junho)</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FIFA 06 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/FIFA-06-Road-to-FIFA-World-Cup-USA.png" alt="FIFA 06">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FIFA 06" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=vJWmTpeR088" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FIFA 06 (Exclusivo)</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FIFA 07 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/07/FIFA-Soccer-07-USA.png" alt="FIFA 07">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FIFA 07" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=Y_C3xKy6dz8" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FIFA 07</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FIFA 08 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/07/FIFA-Soccer-08-USA.png" alt="FIFA 08">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FIFA 08" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=1QE7rJrLq4k" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FIFA 08</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FIFA 14 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/FIFA-14-USA.png" alt="FIFA 14">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FIFA 14 (Copa do Mundo)" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=WvFoxVyrXbQ" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FIFA 14: Copa do Mundo (PT-BR)</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FIFA 15 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/FIFA-15-USA.png" alt="FIFA 15">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FIFA 15" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=bnY3wnpxYP0" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FIFA 15 (PT-BR)</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FIFA 17 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/FIFA-17-USA.png" alt="FIFA 17">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FIFA 17" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=1dqCHTcW2uk" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FIFA 17 (PT-BR)</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FIFA 18 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/fifa-18-pt-br.webp" alt="FIFA 18">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FIFA 18" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=8jvwTJ5uYEk" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FIFA 18 (PT-BR)</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FIFA 19 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/fifa-19-.png" alt="FIFA 19">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FIFA 19" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=KmJgi6e5uXU" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FIFA 19 (PT-BR)</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FIFA 2010 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/07/2010-FIFA-World-Cup-South-Africa-USA-Asia-EnFrEs.webp" alt="FIFA 2010">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FIFA 2010" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=_LI-HfKCWEM" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FIFA 2010 (Copa Do Mundo South Africa)</h3>
+    <div class="card__genre">Esportes</div>
+</div>
+
+<!-- FIFA 26: EA FC 26 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/fifa-26-ea-fc-26-endrick-no-lyon.jpg" alt="FIFA 26">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: FIFA 26: EA FC 26 (Endrick no Lyon)" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=4DRxVPHxZ7Q" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">FIFA 26: EA FC 26 (Endrick no Lyon)</h3>
+    <div class="card__genre">Esportes</div>
+</div><!-- Guitar Hero III: Brazukas -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/guitar-hero-iii-brazukas.webp" alt="Guitar Hero III: Brazukas">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Guitar Hero III: Brazukas" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=0Qy77-FDpa8" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Guitar Hero III: Brazukas</h3>
+    <div class="card__genre">Aventura</div>
+</div>
+
+<!-- Guitar Hero Van Halen -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Guitar-Hero-Van-Halen-USA-EnFrDeEsIt.png" alt="Guitar Hero Van Halen">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Guitar Hero Van Halen" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=w7ASTCsuvWk" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Guitar Hero Van Halen</h3>
+    <div class="card__genre">Plataforma</div>
+</div>
+
+<!-- Guitar Hero: Aerosmith -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Guitar-Hero-Aerosmith-USA-Europe.png" alt="Guitar Hero: Aerosmith">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Guitar Hero: Aerosmith" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=hVzf4pZwBkY" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Guitar Hero: Aerosmith</h3>
+    <div class="card__genre">Aventura</div>
+</div>
+
+<!-- Halo 3 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Halo-3-USA-Europe-EnJaFrDeEsItPtZhKo.png" alt="Halo 3">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Halo 3" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=WmfG0iNXe6Y" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Halo 3 (Dublado PT-BR)</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<!-- Halo 4 -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Halo-4-World-EnJaFrDeEsItNlPtNoDaFiZhKoPlRu-Disc-2.png" alt="Halo 4">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Halo 4" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=H4b6VTWi-uA" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Halo 4 (Dublado PT-BR)</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<!-- Halo Combat Evolved Anniversary -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Halo-Combat-Evolved-Anniversary-World-EnJaFrDeEsItPtZhKo.png" alt="Halo Combat Evolved Anniversary">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Halo Combat Evolved Anniversary" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=ta68hWVmY4Y" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Halo Combat Evolved Anniversary (Dublado PT-BR)</h3>
+    <div class="card__genre">Tiro</div>
+</div>
+
+<!-- Halo Reach -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Halo-Reach-World-EnJaFrDeEsItPtZhKo.png" alt="Halo Reach">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Halo Reach" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=-YYac6TD15g" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Halo Reach (Dublado PT-BR)</h3>
+    <div class="card__genre">FPS</div>
+</div>
+
+<!-- Harry Potter e a Ordem da Fênix -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/harry-potter-e-a-ordem-da-fenix.webp" alt="Harry Potter e a Ordem da Fênix">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Harry Potter e a Ordem da Fênix" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=ublcdat8qfI" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Harry Potter e a Ordem da Fênix</h3>
+    <div class="card__genre">Ação</div>
+</div>
+
+<!-- Hitman Absolution -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Hitman-Absolution-USA-Rev-1.png" alt="Hitman Absolution">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Hitman Absolution" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=IXhGKPITNtg" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Hitman Absolution</h3>
+    <div class="card__genre">Ação</div>
+</div>
+
+<!-- Hot Wheels: O Melhor Piloto Do Mundo -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/07/Hot-Wheels-Worlds-Best-Driver-USA.webp" alt="Hot Wheels: O Melhor Piloto Do Mundo">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Hot Wheels: O Melhor Piloto Do Mundo" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=9xmUVWj2XAA" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Hot Wheels: O Melhor Piloto Do Mundo (Dublado)</h3>
+    <div class="card__genre">Corrida</div>
+</div>
+
+<!-- Import Tuner Challenge -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Import-Tuner-Challenge-USA.png" alt="Import Tuner Challenge">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Import Tuner Challenge" class="card__btn card__btn--dl">Download</a>
+            <a href="https://youtu.be/n-q8NGPVVrA" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Import Tuner Challenge</h3>
+    <div class="card__genre">Corrida</div>
+</div>
+
+<!-- Injustice: Gods Among Us -->
+<div class="card">
+    <div class="card__art">
+        <img src="https://meusjogosde360.com.br/wp-content/uploads/2026/08/Injustice-Gods-Among-Us-Ultimate-Edition-USA-Europe-EnFrDeEsItPtPlRu.png" alt="Injustice: Gods Among Us">
+        <div class="card__overlay">
+            <a href="https://wa.me/5541988958854?text=Quero o jogo: Injustice: Gods Among Us" class="card__btn card__btn--dl">Download</a>
+            <a href="https://www.youtube.com/watch?v=ia_UGaJaGNY" target="_blank" class="card__btn card__btn--gp">Gameplay</a>
+        </div>
+    </div>
+    <h3 class="card__title">Injustice: Gods Among Us (Dublado PT-BR)</h3>
+    <div class="card__genre">Luta</div>
+</div>
